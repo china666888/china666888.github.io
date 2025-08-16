@@ -131,7 +131,8 @@ Example 3: [洛谷B4273](https://www.luogu.com.cn/problem/B4273)
 
 此为一道单调栈的二维变形。如下图，每个长方形的底一样长，高不同，要找出一个面积最大的矩形。输入每个矩形的高。
 
-![image-20250810163310269](/Users/stanchen/Library/Application Support/typora-user-images/image-20250810163310269.png)
+![tu1](/images/monostack.jpg "tu1")
+
 
 此题和上题有异曲同工之妙。对于当前标红的纸条，向左右延伸，直到不能再延伸，以这种方式找到一个矩形，如图中用蓝框圈起的矩形。令此纸条高度为h，那么就找到了高度为h的矩形的面积的最大值。尝试所有的每个纸条的高度，求max，则能找到答案。
 

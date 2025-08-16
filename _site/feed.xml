@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-08-16T12:21:17+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">sun Blog Title</title><subtitle>A brief description of your blog.</subtitle><author><name>Your Name</name><email>your-email@example.com</email></author><entry><title type="html">单调栈 (Monotonic Stack)</title><link href="http://localhost:4000/2025/08/10/%E5%8D%95%E8%B0%83%E6%A0%88-Monotonic-Stack.html" rel="alternate" type="text/html" title="单调栈 (Monotonic Stack)" /><published>2025-08-10T00:00:00+08:00</published><updated>2025-08-10T00:00:00+08:00</updated><id>http://localhost:4000/2025/08/10/%E5%8D%95%E8%B0%83%E6%A0%88-Monotonic%20Stack</id><content type="html" xml:base="http://localhost:4000/2025/08/10/%E5%8D%95%E8%B0%83%E6%A0%88-Monotonic-Stack.html"><![CDATA[<h1 id="单调栈-monotonic-stack">单调栈 (Monotonic Stack)</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-08-16T14:31:01+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">sun Blog Title</title><subtitle>A brief description of your blog.</subtitle><author><name>Your Name</name><email>your-email@example.com</email></author><entry><title type="html">单调栈 (Monotonic Stack)</title><link href="http://localhost:4000/2025/08/10/%E5%8D%95%E8%B0%83%E6%A0%88-Monotonic-Stack.html" rel="alternate" type="text/html" title="单调栈 (Monotonic Stack)" /><published>2025-08-10T00:00:00+08:00</published><updated>2025-08-10T00:00:00+08:00</updated><id>http://localhost:4000/2025/08/10/%E5%8D%95%E8%B0%83%E6%A0%88-Monotonic%20Stack</id><content type="html" xml:base="http://localhost:4000/2025/08/10/%E5%8D%95%E8%B0%83%E6%A0%88-Monotonic-Stack.html"><![CDATA[<h1 id="单调栈-monotonic-stack">单调栈 (Monotonic Stack)</h1>
 <p class="meta">10 Aug 2025</p>
 
 <h2 id="单调栈">单调栈</h2>
@@ -121,7 +121,7 @@ index   1   2   3   4   5   6   7   8
 
 <p>此为一道单调栈的二维变形。如下图，每个长方形的底一样长，高不同，要找出一个面积最大的矩形。输入每个矩形的高。</p>
 
-<p><img src="/Users/stanchen/Library/Application Support/typora-user-images/image-20250810163310269.png" alt="image-20250810163310269" /></p>
+<p><img src="/images/monostack.jpg" alt="tu1" title="tu1" /></p>
 
 <p>此题和上题有异曲同工之妙。对于当前标红的纸条，向左右延伸，直到不能再延伸，以这种方式找到一个矩形，如图中用蓝框圈起的矩形。令此纸条高度为h，那么就找到了高度为h的矩形的面积的最大值。尝试所有的每个纸条的高度，求max，则能找到答案。</p>
 

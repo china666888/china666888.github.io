@@ -177,7 +177,11 @@ ul.posts {
     }
 
   #post img {
-    max-width: 42em;
+    /*max-width: 42em;*/
+    max-width: 40%; /* 缩小到原来的 60% */
+    height: auto; /* 保持比例 */
+    margin: 2em auto; /* 居中显示 */
+    
     padding: 1em 0;
   }
 
