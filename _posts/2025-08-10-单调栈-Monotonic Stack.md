@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 单调栈 (Monotonic Stack) 
+katex: true  # 启用 KaTeX 渲染
 ---
 
 {{ page.title }}
