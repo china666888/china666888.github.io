@@ -180,7 +180,7 @@ ul.posts {
     /*max-width: 42em;*/
     max-width: 40%; /* 缩小到原来的 60% */
     height: auto; /* 保持比例 */
-    margin: 8em auto; /* 居中显示 */
+    margin: 1em auto; /* 居中显示 */
     
     padding: 1em 0;
   }
