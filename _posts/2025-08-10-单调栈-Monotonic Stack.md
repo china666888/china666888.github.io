@@ -23,7 +23,7 @@ title: 单调栈 (Monotonic Stack)
 
 对于长度为n的序列a，定义f(i)为第i个元素后第一个大于a[i]的元素的下标。若不存在，则f(i)为0。求f(1~n).
 $$
-数据范围:n \leq 3 \times 10^6
+数据范围:n \\leq 3 \\times 10^6
 $$
 
 
