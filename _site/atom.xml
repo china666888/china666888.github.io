@@ -4,7 +4,7 @@
  <title>Tom Preston-Werner</title>
  <link href="http://tom.preston-werner.com/atom.xml" rel="self"/>
  <link href="http://tom.preston-werner.com/"/>
- <updated>2025-08-17T09:34:06+08:00</updated>
+ <updated>2025-08-17T09:48:50+08:00</updated>
  <id>http://tom.preston-werner.com/</id>
  <author>
    <name>Tom Preston-Werner</name>
@@ -133,7 +133,6 @@ index: 1 2 3 4 5
 &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;        4   8   3   5   7   1   9   6
             l           i       r
 index   1   2   3   4   5   6   7   8
-
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;比如，在此数列中，对于元素7，在跑两遍单调栈后，我们得到对于7的最大区间，左端点为8，右端点为9 (不包括端点)。    那么c[i] = (i - l) * (r - i)。其中，对于所有可能区间，i - l 表示了左端点的所有可能，r - i表示了右端点的算有可能。此公式可理解为一个排列问题。具体来看，对于7，c[7] = (5 - 2) * (7 - 5)  = 6。&lt;/p&gt;
