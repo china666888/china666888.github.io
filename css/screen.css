@@ -159,7 +159,7 @@ ul.posts {
     border: 1px solid #ddd;
     background-color: #eef;
     padding: 0 .4em;
-    line-height: 1.2; /* 确保代码块内的代码也使用相同的行间距 */
+    
   }
 
   #post ul,
@@ -176,7 +176,7 @@ ul.posts {
 
     #post pre code {
       border: none;
-      line-height: 1.2; /* 确保代码块内的代码也使用相同的行间距 */
+      
     }
 
   #post img {
