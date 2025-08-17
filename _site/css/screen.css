@@ -17,7 +17,7 @@ html, body {
 
 body {
   background-color: white;
-  font: 13.34px "FangSong", helvetica, arial, clean, sans-serif;
+  font: 13.35px helvetica, arial, clean, sans-serif;
   *font-size: small;
   text-align: center;
 }
@@ -140,6 +140,7 @@ ul.posts {
 
       .site .footer .rss img {
         border: 0;
+        max-width: 60%; /* 缩小到原来的 60% */
       }
 
 /*****************************************************************************/
@@ -178,9 +179,9 @@ ul.posts {
 
   #post img {
     /*max-width: 42em;*/
-    max-width: 40%; /* 缩小到原来的 60% */
+    max-width: 25%; /* 缩小到原来的 30% */
     height: auto; /* 保持比例 */
-    margin: 2em auto; /* 居中显示 */
+    margin: 1em auto; /* 居中显示 */
     
     padding: 1em 0;
   }

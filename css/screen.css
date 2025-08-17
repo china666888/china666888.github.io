@@ -140,6 +140,7 @@ ul.posts {
 
       .site .footer .rss img {
         border: 0;
+        max-width: 60%; /* 缩小到原来的 60% */
       }
 
 /*****************************************************************************/
@@ -178,7 +179,7 @@ ul.posts {
 
   #post img {
     /*max-width: 42em;*/
-    max-width: 40%; /* 缩小到原来的 60% */
+    max-width: 25%; /* 缩小到原来的 30% */
     height: auto; /* 保持比例 */
     margin: 1em auto; /* 居中显示 */
     
